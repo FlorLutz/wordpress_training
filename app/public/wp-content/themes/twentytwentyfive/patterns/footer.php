@@ -70,22 +70,22 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-		<div class="wp-block-group alignfull">
+		<!-- <div class="wp-block-group alignfull"> -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'Twenty Twenty-Five', 'twentytwentyfive' ); ?></p>
+			<!-- <p class="has-small-font-size"><?php esc_html_e( 'Twenty Twenty-Five', 'twentytwentyfive' ); ?></p> -->
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">
+			<!-- <p class="has-small-font-size">
 				<?php
 				printf(
 					/* translators: Designed with WordPress. %s: WordPress link. */
-					esc_html__( 'Designed with %s', 'twentytwentyfive' ),
+					// esc_html__( 'Designed with %s', 'twentytwentyfive' ),
 					'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
 				);
 				?>
-			</p>
+			</p> -->
 			<!-- /wp:paragraph -->
-		</div>
+		<!-- </div> -->
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
